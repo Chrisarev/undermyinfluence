@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(newest.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width:100vw;
+}
+
+.panel{
+        overflow-x:hidden;    
+        min-height:100vh;
+        max-width:100vw;
+}
+
+.panel h1{
+    color:#FFF;
+    max-width: 100vw;
+    text-align: center;
+    font-size: clamp(2rem, 2vw + 2rem, 9rem);
+    margin-top:15vh;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:  1px 1px 1px;
+    transition: all 0.3s linear;
+
+}
+
+.contentHolder{
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.musicLinks{
+    width:5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musicLinks a{
+    width:5rem;
+}
+
+.musicLinks a svg{
+    width:100%;
+}
+
+.chatBox{
+    width:20vw;
+    background-color: #fff;
+    height:30vw;
+    border-radius: 5px;
+}
+
+

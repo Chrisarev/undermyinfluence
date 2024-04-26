@@ -1,0 +1,38 @@
+.navbar{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    width:100vw;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:1rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.imgHolder{
+    max-height:100%;
+    width:15rem;
+}
+
+.imgHolder img{
+    max-height:100%;
+    max-width:100%;
+}
+
+.sectionsHolder{
+    display:flex;
+    gap:1rem;
+}
+
+.sectionsHolder a{
+    color:#FFF;
+    font-size: clamp(2rem, 1vw + 1.5rem, 10rem);
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:  2px 2px 2px;
+}
+
+.sectionsHolder a:hover{
+    color:white;
+    text-shadow:  1px 1px 1px;
+}
